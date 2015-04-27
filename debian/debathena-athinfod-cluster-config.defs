@@ -6,3 +6,6 @@ install.log	/usr/lib/athinfod/is_cluster && cat /var/log/athena-install.log
 usb-hid		/usr/share/debathena-athinfod-cluster-config/usb-hid.py
 lsusb		/usr/lib/athinfod/is_cluster && lsusb
 dmesg		/usr/lib/athinfod/is_cluster && dmesg
+syslog		/usr/lib/athinfod/is_cluster && cat /var/log/syslog
+kern.log	/usr/lib/athinfod/is_cluster && cat /var/log/kern.log
+reactivate.log	/usr/lib/athinfod/is_cluster && cat /var/log/athena-reactivate
