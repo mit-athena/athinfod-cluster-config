@@ -9,3 +9,5 @@ dmesg		/usr/lib/athinfod/is_cluster && dmesg
 syslog		/usr/lib/athinfod/is_cluster && cat /var/log/syslog
 kern.log	/usr/lib/athinfod/is_cluster && cat /var/log/kern.log
 reactivate.log	/usr/lib/athinfod/is_cluster && cat /var/log/athena-reactivate
+login-count     /usr/lib/athinfod/is_cluster && expr `last | wc -l` - 2
+login-count-pr  /usr/lib/athinfod/is_cluster && expr `last -f /var/log/wtmp.1 | wc -l` - 2
