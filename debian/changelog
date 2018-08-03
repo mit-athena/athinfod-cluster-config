@@ -1,3 +1,11 @@
+debathena-athinfod-cluster-config (1.9) unstable; urgency=low
+
+  * Add login-count and login-count-pr to return integer counts
+  * of the current month's and previous month's logins, to athinfod
+  * queries for cluster
+
+ -- Sean Preston <wpreston@mit.edu>  Fri, 03 Aug 2018 13:36:06 -0400
+
 debathena-athinfod-cluster-config (1.8) unstable; urgency=low
 
   * Add reactivate, kern.log and syslog to athinfod queries for cluster
